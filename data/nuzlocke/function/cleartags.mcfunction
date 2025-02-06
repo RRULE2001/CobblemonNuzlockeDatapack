@@ -1,3 +1,4 @@
+execute as @p run tag @p remove load
 #This command clears all explored biome tags
 execute as @p run tag @p remove badlands
 execute as @p run tag @p remove bamboo_jungle

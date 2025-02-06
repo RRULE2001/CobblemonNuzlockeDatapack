@@ -117,4 +117,4 @@ execute as @p run function nuzlocke:setbiometag
 #prints out the name of the pokemon that spawned as a title
 execute run title @p title [{"selector":"@e[type=cobblemon:pokemon,sort=nearest,limit=1]"}]
 #Adding time between checking biomes removes the change of quickly changing biomes
-schedule function nuzlocke:detectbiome 10s
+#schedule function nuzlocke:detectbiome 10s

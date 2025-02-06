@@ -15,8 +15,10 @@ execute as @p run scoreboard objectives setdisplay list level_cap
 #sets the level cap to 15 by default
 execute as @p run scoreboard players set @p level_cap 15
 #This command gives you a random starter pokemon
-execute as @p run givepokemon random level=10
-#This command gives the player 6 pokeballs to start
+execute as @p run givepokemon random level=15
+
+#This command gives the player their starting items
+execute run give @p rctmod:trainer_card 1
 execute run give @p cobblemon:poke_ball 6
-#This is the time until the first pokemon will spawn
-schedule function nuzlocke:detectbiome 10s
+
+execute as @p[tag=!load] at @p run tag @p add load
