@@ -1,3 +1,4 @@
+#This function will set the explored biome tag so that only one pokemon spawns per biome explored
 execute as @p[tag=!badlands] at @p if biome ~ ~ ~ minecraft:badlands run tag @p add badlands
 execute as @p[tag=!bamboo_jungle] at @p if biome ~ ~ ~ minecraft:bamboo_jungle run tag @p add bamboo_jungle
 execute as @p[tag=!basalt_deltas] at @p if biome ~ ~ ~ minecraft:basalt_deltas run tag @p add basalt_deltas
@@ -65,3 +66,4 @@ execute as @p[tag=!windswept_gravelly_hills] at @p if biome ~ ~ ~ minecraft:wind
 execute as @p[tag=!windswept_hills] at @p if biome ~ ~ ~ minecraft:windswept_hills run tag @p add windswept_hills
 execute as @p[tag=!windswept_savanna] at @p if biome ~ ~ ~ minecraft:windswept_savanna run tag @p add windswept_savanna
 execute as @p[tag=!wooded_badlands] at @p if biome ~ ~ ~ minecraft:wooded_badlands run tag @p add wooded_badlands
+

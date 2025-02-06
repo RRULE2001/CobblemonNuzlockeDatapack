@@ -1,4 +1,5 @@
-execute as @p run function nuzlocke:detectbiome
-#execute as @p run function nuzlocke:detectbiome2
-#execute as @p run function nuzlocke:detectbiome3
-#execute as @p run function nuzlocke:detectbiome4
+#This file runs every tick
+#execute as @p run function nuzlocke:detectbiome
+
+#Updates level_cap score with players current level cap
+execute at @p store result score @p level_cap run rctmod player get level_cap @p

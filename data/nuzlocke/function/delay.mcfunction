@@ -1,0 +1,1 @@
+execute at @p store result score @p level_cap run rctmod player get level_cap @p

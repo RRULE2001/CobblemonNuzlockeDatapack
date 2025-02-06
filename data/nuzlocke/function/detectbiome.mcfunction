@@ -1,3 +1,4 @@
+#This function detects what biome the player is in and if its new spawn a random pokemon
 execute as @p[tag=!badlands] at @p if biome ~ ~ ~ minecraft:badlands run function nuzlocke:randomspawn
 execute as @p[tag=!bamboo_jungle] at @p if biome ~ ~ ~ minecraft:bamboo_jungle run function nuzlocke:randomspawn
 execute as @p[tag=!basalt_deltas] at @p if biome ~ ~ ~ minecraft:basalt_deltas run function nuzlocke:randomspawn
@@ -65,3 +66,4 @@ execute as @p[tag=!windswept_gravelly_hills] at @p if biome ~ ~ ~ minecraft:wind
 execute as @p[tag=!windswept_hills] at @p if biome ~ ~ ~ minecraft:windswept_hills run function nuzlocke:randomspawn
 execute as @p[tag=!windswept_savanna] at @p if biome ~ ~ ~ minecraft:windswept_savanna run function nuzlocke:randomspawn
 execute as @p[tag=!wooded_badlands] at @p if biome ~ ~ ~ minecraft:wooded_badlands run function nuzlocke:randomspawn
+
