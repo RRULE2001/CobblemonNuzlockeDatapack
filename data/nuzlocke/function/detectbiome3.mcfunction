@@ -1,4 +1,3 @@
-execute as @p run say test3
 #execute as @p[tag=!pale_garden] at @p if biome ~ ~ ~ minecraft:pale_garden run function nuzlocke:randomspawn
 execute as @p[tag=!plains] at @p if biome ~ ~ ~ minecraft:plains run function nuzlocke:randomspawn
 execute as @p[tag=!river] at @p if biome ~ ~ ~ minecraft:river run function nuzlocke:randomspawn

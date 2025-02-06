@@ -1,4 +1,3 @@
-execute as @p run say test
 execute as @p[tag=!badlands] at @p if biome ~ ~ ~ minecraft:badlands run function nuzlocke:randomspawn
 execute as @p[tag=!bamboo_jungle] at @p if biome ~ ~ ~ minecraft:bamboo_jungle run function nuzlocke:randomspawn
 execute as @p[tag=!basalt_deltas] at @p if biome ~ ~ ~ minecraft:basalt_deltas run function nuzlocke:randomspawn
