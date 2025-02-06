@@ -1,0 +1,23 @@
+execute as @p run say test
+execute as @p[tag=!badlands] at @p if biome ~ ~ ~ minecraft:badlands run function nuzlocke:randomspawn
+execute as @p[tag=!bamboo_jungle] at @p if biome ~ ~ ~ minecraft:bamboo_jungle run function nuzlocke:randomspawn
+execute as @p[tag=!basalt_deltas] at @p if biome ~ ~ ~ minecraft:basalt_deltas run function nuzlocke:randomspawn
+execute as @p[tag=!beach] at @p if biome ~ ~ ~ minecraft:beach run function nuzlocke:randomspawn
+execute as @p[tag=!birch_forest] at @p if biome ~ ~ ~ minecraft:birch_forest run function nuzlocke:randomspawn
+execute as @p[tag=!cherry_grove] at @p if biome ~ ~ ~ minecraft:cherry_grove run function nuzlocke:randomspawn
+execute as @p[tag=!cold_ocean] at @p if biome ~ ~ ~ minecraft:cold_ocean run function nuzlocke:randomspawn
+execute as @p[tag=!crimson_forest] at @p if biome ~ ~ ~ minecraft:crimson_forest run function nuzlocke:randomspawn
+execute as @p[tag=!dark_forest] at @p if biome ~ ~ ~ minecraft:dark_forest run function nuzlocke:randomspawn
+execute as @p[tag=!deep_cold_ocean] at @p if biome ~ ~ ~ minecraft:deep_cold_ocean run function nuzlocke:randomspawn
+execute as @p[tag=!deep_dark] at @p if biome ~ ~ ~ minecraft:deep_dark run function nuzlocke:randomspawn
+execute as @p[tag=!deep_frozen_ocean] at @p if biome ~ ~ ~ minecraft:deep_frozen_ocean run function nuzlocke:randomspawn
+execute as @p[tag=!deep_lukewarm_ocean] at @p if biome ~ ~ ~ minecraft:deep_lukewarm_ocean run function nuzlocke:randomspawn
+execute as @p[tag=!deep_ocean] at @p if biome ~ ~ ~ minecraft:deep_ocean run function nuzlocke:randomspawn
+execute as @p[tag=!desert] at @p if biome ~ ~ ~ minecraft:desert run function nuzlocke:randomspawn
+execute as @p[tag=!dripstone_caves] at @p if biome ~ ~ ~ minecraft:dripstone_caves run function nuzlocke:randomspawn
+execute as @p[tag=!end_barrens] at @p if biome ~ ~ ~ minecraft:end_barrens run function nuzlocke:randomspawn
+execute as @p[tag=!end_highlands] at @p if biome ~ ~ ~ minecraft:end_highlands run function nuzlocke:randomspawn
+execute as @p[tag=!end_midlands] at @p if biome ~ ~ ~ minecraft:end_midlands run function nuzlocke:randomspawn
+execute as @p[tag=!eroded_badlands] at @p if biome ~ ~ ~ minecraft:eroded_badlands run function nuzlocke:randomspawn
+execute as @p[tag=!flower_forest] at @p if biome ~ ~ ~ minecraft:flower_forest run function nuzlocke:randomspawn
+execute as @p[tag=!forest] at @p if biome ~ ~ ~ minecraft:forest run function nuzlocke:randomspawn

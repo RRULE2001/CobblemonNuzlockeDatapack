@@ -1,0 +1,11 @@
+execute as @p[tag=!sunflower_plains] at @p if biome ~ ~ ~ minecraft:sunflower_plains run tag @p add sunflower_plains
+execute as @p[tag=!swamp] at @p if biome ~ ~ ~ minecraft:swamp run tag @p add swamp
+execute as @p[tag=!taiga] at @p if biome ~ ~ ~ minecraft:taiga run tag @p add taiga
+execute as @p[tag=!the_end] at @p if biome ~ ~ ~ minecraft:the_end run tag @p add the_end
+execute as @p[tag=!warm_ocean] at @p if biome ~ ~ ~ minecraft:warm_ocean run tag @p add warm_ocean
+execute as @p[tag=!warped_forest] at @p if biome ~ ~ ~ minecraft:warped_forest run tag @p add warped_forest
+execute as @p[tag=!windswept_forest] at @p if biome ~ ~ ~ minecraft:windswept_forest run tag @p add windswept_forest
+execute as @p[tag=!windswept_gravelly_hills] at @p if biome ~ ~ ~ minecraft:windswept_gravelly_hills run tag @p add windswept_gravelly_hills
+execute as @p[tag=!windswept_hills] at @p if biome ~ ~ ~ minecraft:windswept_hills run tag @p add windswept_hills
+execute as @p[tag=!windswept_savanna] at @p if biome ~ ~ ~ minecraft:windswept_savanna run tag @p add windswept_savanna
+execute as @p[tag=!wooded_badlands] at @p if biome ~ ~ ~ minecraft:wooded_badlands run tag @p add wooded_badlands
