@@ -6,3 +6,4 @@ execute at @p run spawnpokemon random
 execute as @p run function nuzlocke:setbiometag
 execute as @p run function nuzlocke:setbiometag2
 execute as @p run function nuzlocke:setbiometag3
+execute as @p run function nuzlocke:setbiometag4
